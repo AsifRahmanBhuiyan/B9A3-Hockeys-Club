@@ -32,9 +32,9 @@
     </style>
 </head>
 
-<body class="font-manrope container mx-auto w-11/12 lg:w-5/6">
+<body class="font-manrope">
     <!-- Header Section Starts -->
-    <header>
+    <header class="container mx-auto w-11/12 lg:w-5/6">
         <!-- Navbar Starts -->
         <nav>
             <div class="navbar px-0">
@@ -168,7 +168,7 @@
     <!-- Header Section Ends -->
 
     <!-- Main Section Starts -->
-    <main>
+    <main class="container mx-auto w-11/12 lg:w-5/6">
         <!-- Professional Hockey Section Starts -->
         <section>
             <div class="text-center">
@@ -579,22 +579,22 @@
                     <div class="card bg-base-100 shadow-xl bg-[#BCED6D1A] p-10">
                         <div class="">
                             <img src="./Images/phone-icon.png" alt="">
-                            <p class="font-normal text-base text-[#131318] opacity-60 lg:text-base">Phone Number : </p>
-                            <p class="font-extrabold text-lg text-[#131318] lg:text-base">(+62) 123-321-543</p>
+                            <p class="font-normal text-base text-[#131318] opacity-60">Phone Number : </p>
+                            <p class="font-extrabold text-lg text-[#131318]">(+62) 123-321-543</p>
                         </div>
                     </div>
                     <div class="card bg-base-100 shadow-xl bg-[#FDDD5F1A] p-10">
                         <div class="">
                             <img src="./Images/msg-icon.png" alt="">
-                            <p class="font-normal text-base text-[#131318] opacity-60 lg:text-base">Phone Number : </p>
-                            <p class="font-extrabold text-lg text-[#131318] lg:text-base">(+62) 123-321-543</p>
+                            <p class="font-normal text-base text-[#131318] opacity-60">Phone Number : </p>
+                            <p class="font-extrabold text-lg text-[#131318]">(+62) 123-321-543</p>
                         </div>
                     </div>
                     <div class="card bg-base-100 shadow-xl bg-[#629CF31A] p-10">
                         <div class="">
                             <img src="./Images/location-icon.png" alt="">
-                            <p class="font-normal text-base text-[#131318] opacity-60 lg:text-base">Phone Number : </p>
-                            <p class="font-extrabold text-lg text-[#131318] lg:text-base">(+62) 123-321-543</p>
+                            <p class="font-normal text-base text-[#131318] opacity-60">Phone Number : </p>
+                            <p class="font-extrabold text-lg text-[#131318]">(+62) 123-321-543</p>
                         </div>
                     </div>
                 </div>
@@ -602,22 +602,23 @@
                     <form action="">
                         <div class="flex flex-col lg:flex-row gap-6">
                             <div>
-                                <p class="font-bold text-xl text-[#131318] lg:text-base">Your Name</p>
+                                <p class="font-bold text-xl text-[#131318]">Your Name</p>
                                 <input type="name" placeholder="Enter your full name"
                                     class="input w-full bg-[#13131808]" />
-                                <p class="font-bold text-xl text-[#131318] lg:text-base">Subject</p>
+                                <p class="font-bold text-xl text-[#131318]">Subject</p>
                                 <input type="text" placeholder="Enter your subject"
                                     class="input w-full bg-[#13131808]" />
                             </div>
                             <div>
-                                <p class="font-bold text-xl text-[#131318] lg:text-base">Your Email</p>
-                                <input type="email" placeholder="Enter your email" class="input w-full bg-[#13131808]" />
-                                <p class="font-bold text-xl text-[#131318] lg:text-base">Phone Number</p>
+                                <p class="font-bold text-xl text-[#131318]">Your Email</p>
+                                <input type="email" placeholder="Enter your email"
+                                    class="input w-full bg-[#13131808]" />
+                                <p class="font-bold text-xl text-[#131318]">Phone Number</p>
                                 <input type="number" placeholder="Enter your phone number"
                                     class="input w-full bg-[#13131808]" />
                             </div>
                         </div>
-                        <p class="font-bold text-xl text-[#131318] lg:text-base">Message</p>
+                        <p class="font-bold text-xl text-[#131318]">Message</p>
                         <textarea class="input w-full h-80 bg-[#13131808]" placeholder="Write your message"></textarea>
                         <a class="btn w-full px-6 bg-[#FF4240] border-none hover:bg-black text-white font-bold">Register
                             Now</a>
@@ -626,10 +627,57 @@
             </div>
         </section>
         <!-- Get In Touch Section  Ends -->
+
+        <!-- Social Media Section Starts  -->
+        <section>
+            <div class="w-full bg-[#13131808] flex flex-col items-center gap-6">
+                <p class="font-extrabold text-[#131318] text-2xl">Social Media</p>
+                <img class="w-fit" src="./Images/Social.svg" alt="">
+            </div>
+        </section>
+        <!-- Social Media Section Ends -->
     </main>
     <!-- Main Section Ends -->
-    <footer>
-
+    <footer class="flex justify-around p-10 bg-base-200 text-base-content bg-[#131318] flex-col lg:flex-row">
+        <aside class="lg:w-1/4 text-center lg:text-left">
+            <h3 class="text-3xl text-white font-extrabold">Get In Touch</h3>
+            <p class="font-medium text-sm text-[#FFFFFF99] lg:text-base">Dit amet consectetur. Condimentum<br>adipiscing aliquam turpis placerat dolor. Purus<br>urna in sit nullam proin.</p>
+            <div class="flex gap-4 justify-center lg:justify-start">
+                <img src="./Images/Inbox.png" alt="">
+                <p class="font-medium text-[#FFFFFFCC] lg:text-base">hockeys@support.com</p>
+            </div>
+            <div class="flex gap-4 justify-center lg:justify-start">
+                <img src="./Images/Contact.png" alt="">
+                <p class="font-medium text-[#FFFFFFCC] text-base">(+62) 123-321-543</p>
+            </div>
+        </aside>
+        <div class="flex lg:w-2/4 justify-around">
+            <div class="flex flex-col text-center lg:text-left">
+                <h3 class="text-lg text-white font-bold">Get In Touch</h3>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">About us</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Leadership</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Careers</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">News & Article</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Legal Notice</a>
+            </div>
+            <div class="flex flex-col text-center lg:text-left">
+                <h3 class="text-lg text-white font-bold">Support</h3>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Help Center</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">FAQ</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Ticket Support</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Contact Us</a>
+            </div>
+        </div>
+        <div>
+            <div  class="flex flex-col text-center lg:text-left">
+                <h3 class="text-lg text-white font-bold">Services</h3>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Academy</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Group Lesson</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Private Lesson</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Hockeys for kids</a>
+                <a class="link link-hover font-medium text-[#FFFFFF99] text-base">Hockeys for Adult</a>
+            </div>
+        </div>
     </footer>
 </body>
 
